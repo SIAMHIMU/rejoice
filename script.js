@@ -96,7 +96,7 @@ function loader(){
      var osaka = gsap.timeline();
 
      osaka.from(".loder h1",{
-        x:100,
+        y: -100,
         duration:2,
         stagger:0.2,
         scale:0,
